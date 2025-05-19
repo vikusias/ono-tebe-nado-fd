@@ -106,15 +106,15 @@
 }
 
 .text_cover { 
-  letter-spacing: 30px; /* буква о разрыв 30, буквы те разрыв 30, буквы ад разрыв 30 */
+  letter-spacing: 30px;
 }
 
 .text_cover .no_letter_spacing {
-  letter-spacing: 0px; /* сброс межбуквенного разрыва */ 
+  letter-spacing: 0px;
 }
 
 .text_cover .letter_spacing {
-  letter-spacing: 60px; /* буквы но разрыв 60, буквы бе разрыв 60, буква н разрыв 60 */ 
+  letter-spacing: 60px;
 }
 
 .cover_description {
@@ -160,14 +160,15 @@
   flex-wrap: wrap;
   list-style-type: none;
   gap: 25px;
-  justify-content: flex-start; /* указал start */ 
+  justify-content: flex-start;
   padding: 0; 
   margin: 0 auto;
-  margin-left: 20px; /* левый отступ чтобы совпадало с макетом */  
+  margin-left: 20px;
+
 }
 
 .card_lots a { 
-  text-decoration: none; /* дефолтное подчеркивание текста убрано */ 
+  text-decoration: none;
 }
 
 .card_lots {
